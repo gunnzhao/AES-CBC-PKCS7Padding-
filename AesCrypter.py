@@ -35,7 +35,4 @@ class AesCrypter(object):
 
 if __name__ == '__main__':
     aes = AesCrypter('909ed2d5fcf907c79fb9aa341a98febb65291c39')
-    m1 = aes.encrypt('AABBCC测试数据')
-    print m1
-    #m2 = aes.decrypt('8KMhBra1JIg/Jx9TSWA8uGbGdP+RvWgi3HcGaxb1Ie688ZkTzhBw/H4UUzWwYv3y')
-    #print m2
+    print aes.encrypt('AABBCC测试数据')
